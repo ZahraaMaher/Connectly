@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jobprovider.ProviderProfile"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/appbar"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#917BB1"
+        android:id="@+id/tabBar"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabTextColor="#FFFFFF">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabInfoSeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabEditInfoSeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Information" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+
+</LinearLayout>

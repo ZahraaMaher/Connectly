@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seeker.SeekerEditFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/TV_fName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="First Name"
+                android:textSize="22dp"
+                android:textColor="#B2BABB" />
+
+            <EditText
+                android:id="@+id/EditFName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_fName"
+                android:background="#F3F3F3"
+                android:inputType="textPersonName"
+                android:textSize="22sp"
+                android:hint="Enter Your First Name"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/TV_lName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/EditFName"
+                android:layout_marginTop="5dp"
+                android:text="Last Name"
+                android:textSize="22dp"
+                android:textColor="#B2BABB" />
+
+            <EditText
+                android:id="@+id/ET_lName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_lName"
+                android:background="#F3F3F3"
+                android:inputType="textPersonName"
+                android:textSize="22sp"
+                android:hint="Enter Your Last Name"
+                android:padding="8dp" />
+
+            <!--TextView
+                android:id="@+id/TV_SeekerEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_lName"
+                android:layout_marginTop="5dp"
+                android:text="Email"
+                android:textSize="22dp"
+                android:textColor="#B2BABB"/>
+
+            <EditText
+                android:id="@+id/ET_SeekerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_SeekerEmail"
+                android:background="#F3F3F3"
+                android:inputType="textEmailAddress"
+                android:textSize="22dp"
+                android:padding="8dp"/-->
+
+            <TextView
+                android:id="@+id/TV_SeekerPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_lName"
+                android:layout_marginTop="5dp"
+                android:text="Phone Number"
+                android:textSize="22sp"
+                android:textColor="#B2BABB" />
+
+            <EditText
+                android:id="@+id/ET_SeekerPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_SeekerPhone"
+                android:background="#F3F3F3"
+                android:inputType="phone"
+                android:textSize="22sp"
+                android:hint="Enter Your Phone Number"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/TV_Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_SeekerPhone"
+                android:layout_marginTop="5dp"
+                android:text="Age"
+                android:textSize="22dp"
+                android:textColor="#B2BABB" />
+
+            <EditText
+                android:id="@+id/ET_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_Age"
+                android:background="#F3F3F3"
+                android:inputType="number"
+                android:textSize="22sp"
+                android:hint="Enter Your Age"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/TV_bDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_age"
+                android:layout_marginTop="5dp"
+                android:text="Birth Date"
+                android:textSize="22sp"
+                android:textColor="#B2BABB" />
+
+            <EditText
+                android:id="@+id/ET_bDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_bDate"
+                android:background="#F3F3F3"
+                android:inputType="date"
+                android:textSize="22sp"
+                android:hint="Enter Your Birth Date"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/TV_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_bDate"
+                android:layout_marginTop="5dp"
+                android:text="Gender"
+                android:textSize="22sp"
+                android:textColor="#B2BABB" />
+
+            <RadioGroup
+                android:id="@+id/GenderRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_gender"
+                android:layout_marginTop="5dp"
+                android:layoutMode="opticalBounds"
+                android:textColor="#B2BABB"
+                android:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="#B2BABB"
+                    android:textSize="22dp"
+                    android:buttonTint="#B2BABB" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="#B2BABB"
+                    android:textSize="22dp"
+                    android:buttonTint="#B2BABB" />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/GenderRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CV_Section">
+
+                <TextView
+                    android:id="@+id/TV_CV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload CV"
+                    android:textSize="22dp"
+                    android:textColor="#B2BABB"/>
+
+                <Button
+                    android:layout_marginStart="30dp"
+                    android:id="@+id/browseCVButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#917BB1"
+                    android:padding="10dp"
+                    android:text="Brows Files" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/CV_Section"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#917BB1"
+                android:text="UPDATE" />
+
+            <!--Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Browse Files"
+                android:textSize="12dp"
+                android:layout_below="@id/GenderRadio"
+                android:layout_marginTop="5dp"
+                android:background="#917BB1"
+                android:layout_marginLeft="140dp"/-->
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

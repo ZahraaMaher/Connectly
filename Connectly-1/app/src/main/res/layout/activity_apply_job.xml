@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".ApplyJob">
+
+    <include
+        layout="@layout/appbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".ApplyJob">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="370dp"
+                android:layout_height="232dp"
+                app:srcCompat="@drawable/apply_job" />
+
+            <TableRow
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/TextView_CompanyNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:text="Company name"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/TextView_CompanyNameShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@android:color/black"
+                    android:text="Provider name"
+                    android:maxLines="3"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:text="Location"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@android:color/black"
+                    android:text="Dammam"
+                    android:maxLines="3"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Description" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:text="About the job" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="250dp"
+                    android:layout_weight="1"
+                    android:maxLines="4"
+                    android:layout_marginLeft="12dp"
+                    android:layout_height="68dp"
+                    android:text="We are looking for enthusistic fresh graduate individuals in computer science or related field "
+                    android:textColor="@android:color/black" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Requirements"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView_Requirements"
+                    android:layout_width="171dp"
+                    android:layout_weight="1"
+                    android:maxLines="4"
+                    android:layout_marginLeft="12dp"
+                    android:layout_height="68dp"
+                    android:text="Computer Science Programmer (CSP) is a saudi company with programming and Information Technology services"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="12dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Contact details" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:text="Email" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="@android:color/black"
+                    android:text="info.csp@csp.com" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/Apply"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.2"
+                    android:text="Apply"
+                    android:background="@android:color/holo_blue_light"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

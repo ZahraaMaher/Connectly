@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jobprovider.ProviderInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/TV_ComName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Company Name"
+                android:textSize="22dp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/ET_ComName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TV_ComName"
+                android:text="Saudi Aramco"
+                android:textColor="#917BB1"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/TV_ComEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_ComName"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textSize="22dp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/ET_ComEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_ComEmail"
+                android:text="webmaster2@aramco.com"
+                android:textColor="#917BB1"
+                android:textSize="22dp"
+                android:focusable="false"/>
+            <TextView
+                android:id="@+id/TV_ComPhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_ComEmail"
+                android:layout_marginTop="10dp"
+                android:text="Phone number"
+                android:textSize="22dp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/ET_ComPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_ComPhoneNo"
+                android:textSize="22dp"
+                android:text="None"
+                android:textColor="#917BB1"/>
+
+            <TextView
+                android:id="@+id/TV_Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ET_ComPhoneNo"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textSize="22dp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/ET_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TV_Address"
+                android:text="Dhahran 31311"
+                android:textColor="#917BB1"
+                android:textSize="22dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

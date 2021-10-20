@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seeker.SeekerInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/TextView_FirstNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="First Name"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/TextView_firstNameShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_FirstNameLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_LastNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_firstNameShow"
+                android:layout_marginTop="10dp"
+                android:text="Last Name"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+            <TextView
+                android:id="@+id/TextView_LastNameShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_LastNameLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_EmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_LastNameShow"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+            <TextView
+                android:id="@+id/TextView_EmailShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_EmailLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_PhoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_EmailShow"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+            <TextView
+                android:id="@+id/TextView_PhoneShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_PhoneLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_AgeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_PhoneShow"
+                android:layout_marginTop="10dp"
+                android:text="Age"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+            <TextView
+                android:id="@+id/TextView_AgeShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_AgeLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_BithOfDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_AgeShow"
+                android:layout_marginTop="10dp"
+                android:text="Birth Date"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+            <TextView
+                android:id="@+id/TextView_BithOfDateShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_BithOfDateLabel"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/TextView_GenderLable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_BithOfDateShow"
+                android:layout_marginTop="10dp"
+                android:text="Gender"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+
+            <TextView
+                android:id="@+id/TextView_GenderShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_GenderLable"
+                android:layout_marginTop="0dp"
+                android:textColor="#917BB1"
+                android:textSize="22sp" />
+
+
+
+            <TextView
+                android:id="@+id/TextView_CV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextView_GenderShow"
+                android:layout_marginTop="10dp"
+                android:text="CV Uploaded"
+                android:textSize="22sp"
+                android:textColor="#B2BABB"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+

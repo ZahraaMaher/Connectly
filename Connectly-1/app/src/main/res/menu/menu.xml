@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu1_home"
+            android:title="Home"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/menu1_profile"
+            android:title="Profile"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menu1_logout"
+            android:title="Signout"
+            app:showAsAction="never"/>
+    </group>
+
+</menu>

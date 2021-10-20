@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="100dp"
+        android:paddingBottom="180dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/PostJob_providerHome"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="#E4DEED"
+            android:onClick="postJob_onClick"
+            android:text="Post Job"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/viewRequests_providerHome"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#E4DEED"
+            android:onClick="viewRequests_onClick"
+            android:text="View Requests"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
